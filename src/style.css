@@ -1,0 +1,546 @@
+#nav{
+    width: 100%;
+    background-color: azure;
+    padding: 10px;
+    height: 40px;
+    font-size: 13px;
+    position: sticky;
+    top: 0;
+    z-index: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+ overflow-x: hidden;
+}
+
+#navbar{
+    background-color: gray;
+    width: 100%;
+    color: white;
+    height: 80px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+Navbar.Brand{
+position: relative;
+right: 200px;
+
+}
+#navbar button{
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+background-color: white;
+color: gray;
+width: 100px;
+border-radius: 20px;
+height:40px;
+
+}
+
+.me-auto{
+    font-size: 14px;
+    margin-left: 30px;
+    position: relative;
+    left: 50px;
+    color: white;
+    
+}
+
+/* //..............................circle image */
+.head{
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    padding-left: 200px;
+    padding-top: 20px;
+    }
+    
+    .he{
+        height: 72px;
+        width: 72px;
+        border: 2px solid purple;
+        border-radius:  50%;
+        padding: 1.5px;
+        
+    
+    }
+    .he img{
+        /* border: 2px solid purple; */
+       border-radius: 50%;
+       
+    }
+    .he p{
+        margin-top: 5px;
+    }
+
+    /* //..........image......... */
+
+#img{
+display: flex;
+/* justify-content: space-around; */
+align-items: center;
+flex-wrap: wrap;
+margin-left: 150px;
+margin-right: 150px;
+margin-top: 80px;
+gap: 20px;
+}
+    
+ /* //...............card..................    */
+ #cardData
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+#cardData img:hover{
+    border: 1px solid gray;
+
+}
+
+h3{
+    margin-top: 50px;
+}
+
+#icons{
+    position: relative;
+    left: 50px;
+    bottom: 10px;
+    font-size: 22px;
+    display: flex;
+   gap: 25px;
+    
+
+}
+
+#searching{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+
+/* ::first-letter {
+    font-size: 2em;
+    font-weight: bold; 
+   
+  } */
+
+
+  /* //footer..........// */
+  .kart{
+    width: 100%;
+    background-color: gray;
+    /* margin-top: 100px; */
+    padding:50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+   right: 100px;
+    
+}
+
+.foot p{
+    font-size: 20px;
+    color:white;
+    
+}
+
+.foot ul li{
+    color:white;
+    line-height: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.link1{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    color: rgb(226, 220, 220);
+  
+}
+
+.l1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 3px;
+    
+   
+}
+
+.l1 i{
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+}
+
+.link img{
+    margin-top: 20px;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+ .mail{
+    font-size: 12px;
+    color: white;
+    margin-top: 50px;
+}
+
+/* //...........hovers using......... card*/
+
+    .card {
+        position: relative;
+        overflow: hidden; /* Content card se bahar na nikle */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+      
+      .card img {
+        transition: transform 0.3s ease-in-out; /* Smooth transition for hover */
+      }
+      
+      .card:hover img {
+        transform: scale(1.1); /* Slight zoom effect on hover */
+      }
+      
+      .card .overlay {
+        position: absolute;
+        bottom: 0; /* Image ke niche show hoga */
+        width: 100%;
+        background-color: white; /* Background white */
+        color: black; /* Text color black */
+        text-align: center;
+        padding: 10px 0;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        /* font-weight: bold; */
+        text-transform: uppercase;
+        opacity: 0; /* Default hidden */
+        transition: opacity 0.3s ease-in-out;
+        border-top: 1px solid #ddd; /* Separate line between image and text */
+      }
+      
+      .card:hover .overlay {
+        opacity: 1; /* On hover, text visible hoga */
+      }
+
+/* //...............shop now,,,,,,,,,,,,,, */
+      #shoppage
+{
+    display: flex;
+    justify-content: space-between;
+margin-top: 50px;
+    margin-left: 30px;
+   
+}
+
+#shopmenu
+{
+    width: 20%;
+    background-color: rgb(234, 238, 240);
+    height: 400px;
+   border: 1px solid gray;
+   padding: 20px;
+   margin-top: 30px;
+   font-size: 14px;
+   font-family: 'Times New Roman', Times, serif;
+}
+#shopdata
+{
+    width: 80%;
+}
+
+/* //..............contact................ */
+#contact{
+    display: flex;
+  
+}
+
+#paymethod {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* रेडियो बटन के बीच गैप */
+    margin-right: 200px;
+  }
+  
+  #paymethod input[type="radio"] {
+    appearance: none; /* डिफॉल्ट रेडियो बटन को हटाना */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff; /* बॉर्डर का रंग */
+    border-radius: 50%; /* गोल आकार */
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    
+  }
+  
+  #paymethod input[type="radio"]:checked {
+    background-color: #007bff; /* सिलेक्टेड रेडियो बटन का रंग */
+    border-color: #0056b3; /* बॉर्डर का गहरा रंग */
+  }
+  
+ 
+
+/* .........................fome................ */
+#fome{
+width: 60%;
+border: 1px solid rgb(211, 217, 223);
+height: 1100px;
+padding-left: 50px;
+
+
+}
+
+#fome button{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(37, 34, 34);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+input::placeholder{
+    font-size: 14px;
+}
+
+#item{
+width: 40%;
+border: 1px solid rgb(211, 217, 223);
+height: 1000px;
+}
+ /* //...Admin dash bord>>>>>>>>>>>>>>. */
+ .navb{
+    height: 35px;
+  margin-left: 270px;
+  margin-right: 12px;
+    background:black;
+    color: red;
+    display: flex;
+    align-items: center;
+  font-size: 20px;
+    gap: 20px;
+   padding-left: 900px;
+  
+}
+
+.bar{
+    position: relative;
+    right: 850px;
+}
+
+
+
+.mained{
+    display: grid;
+    grid-template-columns: repeat(5,250px);
+    grid-template-rows: 80px auto;
+    background-color: white(233, 210, 210);
+    height: 100vh;
+    gap: 20px;
+}
+
+.item1{  
+    background:linear-gradient(135deg,black,orangered);
+    /* color: orangered; */
+    height: 100vh;
+    margin-top: -40px;
+}
+
+
+.item2{
+    height: 70px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    background:linear-gradient(135deg,orangered,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.item1 ul li{
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+
+
+button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+   background-color: #ff4000;
+    font-size: 15px;
+    color: black;
+}
+
+.item2 h1{
+    margin-left: 30px;
+}
+
+.item2 i{
+    
+    margin-right: 30px;
+    
+}
+  
+.item4,.item5,.item6,.item7 {
+    color: white;
+}
+
+.item4{
+   
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 200px;
+    width: 200px;
+    border-radius: 35px;
+    background-image: linear-gradient(to right top, #eaff06, #f9db00, #ffb700, #ff9100, #ff6900, #ff5900, #ff4700, #ff2f00, #ff4000, #ff4d00, #ff5900, #ff6300);
+}
+
+.item5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 200px;
+    width: 200px;
+    border-radius: 35px;
+    background-image: linear-gradient(to right top, #8cf0ff, #2ecdf8, #00a7f2, #007fe5, #0052ca, #133ab2, #1a2198, #1d007f, #23006e, #25005e, #24004f, #220041);
+}
+
+.item6{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 200px;
+    width: 200px;
+    border-radius: 35px;
+    background-image: linear-gradient(to right top, #ff8ca5, #ff7a94, #ff6781, #ff536c, #ff3b57, #ff2d62, #ff1b6e, #ff007a, #ed27a7, #c94ad0, #9066ee, #007aff);
+}
+
+.item7{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 200px;
+    width: 200px;
+    border-radius: 35px;
+    background-image: linear-gradient(to right top, #22ff00, #19d704, #10b105, #098c05, #056904, #005c1a, #004e23, #004026, #004137, #004145, #00404e, #1a3e51);
+}
+
+
+.carded{
+
+    position: relative;
+    left: 300px;
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 35px;
+    gap: 50px;
+    margin-top: 100px;
+    /* gap: 50px;
+    position: relative;
+    left: 300px;
+   bottom: 500px;
+   flex-wrap: wrap; */
+}
+
+/* //............Lighting..................... */
+
+#light{
+    margin-top: 50px;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<INsertprodect<<<<<<<<<<<<<<<<<< */
+.form{
+    width: 1000px;
+    margin-left: 300px;
+    border: 2px solid orangered;
+    padding: 20px;
+  height: 400px;
+    backdrop-filter: blur(50px);
+    background-size: cover; 
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.form button {
+    width: 200px;
+  position: relative;
+  left: 350px;
+  height: 40px;
+    border: none;
+    border-radius: 12px;
+    background-color:orangered;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .form button:hover {
+    background-color: #0353a8;
+  }
+
+  .form h1{
+    color: orangered;
+  }
+
+ .form input{
+    height: 30px;
+    width: 300px;
+    background-color: rgb(255, 238, 238);
+  border: 1px solid rgb(247, 88, 14);
+border-radius: 12px;
+padding-left: 10px;
+}
+
+body{background-image: url("./images/1bg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover; height:500px;
+
+} 
+ .row1{
+    display: flex;
+    gap: 20px;
+ }  
