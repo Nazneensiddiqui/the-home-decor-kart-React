@@ -36,7 +36,7 @@ const PaymentDone=()=>{
 <center>
 
         {isLoader?(
-             <div style={{width:"100px", margin:"auto", paddingTop:"30px",  margin:"150px"}}>
+             <div style={{width:"100px", margin:"auto", paddingTop:"30px", }}>
              <LoaderComp/>
              </div>
         ):(

@@ -1,0 +1,17 @@
+.main-container{
+    display: fiex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Left-Menubar{
+    width: 30%;
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+}
+
+.Right-side{
+    width: 70%;
+  
+}
