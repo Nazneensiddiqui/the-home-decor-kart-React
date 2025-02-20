@@ -6,9 +6,11 @@ import Footer from "./componets/footer";
 const Layout=()=>{
     return(
         <>
-         
+         <div style={{position:"sticky", top:"0", zIndex:"10"}}>
          <Topmanu/>
-         <Header/>
+         </div>
+         <Header/> 
+         
  <Outlet/>
    <Footer/>     
         </>
