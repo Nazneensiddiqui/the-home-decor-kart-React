@@ -45,6 +45,14 @@ const loadData2=()=>{
   })
 }
 
+const loadData3=()=>{
+  let api=`http://localhost:3000/wall/${id}`;
+  axios.get(api).then((res)=>{
+      setMydata(res.data)
+      console.log(res.data)
+  })
+}
+
 
 useEffect(()=>{
     loadData();
@@ -58,6 +66,10 @@ useEffect(()=>{
 
 useEffect(()=>{
   loadData2();
+}, [])
+
+useEffect(()=>{
+  loadData3();
 }, [])
 
     const cartDataAdd=(id, price, desc, myimg)=>{
