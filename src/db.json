@@ -239,6 +239,17 @@
       "state": "MadhyaPradesh",
       "amount": "4130",
       "paymethod": "cash on Delivery"
+    },
+    {
+      "id": "10fe",
+      "email": "nazneenbanosiddiqui@gmail.com",
+      "name": "Nazneen Bano",
+      "address": "pratap Nagar Shymla hills",
+      "phoneno": "09424939160",
+      "city": "Bhopal",
+      "state": "MadhyaPradesh",
+      "amount": "4130",
+      "paymethod": "cash on Delivery"
     }
   ],
   "cords": [

@@ -18,8 +18,8 @@ const PaymentDone=()=>{
 
 
     const loaddata=()=>{
-        let api= `http://localhost:3000/user${id}`;
-        axios.get(api).then((res)=>{
+        let api= `http://localhost:3000/user/${id}`;
+      axios.get(api,{id:id}).then((res)=>{
             console.log(res.data);
             setmydata(res.data);
         })
