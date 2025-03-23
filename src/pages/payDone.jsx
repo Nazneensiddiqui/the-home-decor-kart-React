@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 
-const PaymentDone=()=>{o
+const PaymentDone=()=>{
     const{id}=useParams();
     const[mydata, setmydata]=useState({});
     const [isLoader, setIsLoader]=useState(true);
